@@ -54,7 +54,7 @@ const formatPrice = (price) => `R$ ${price.toFixed(2).replace('.', ',')}`;
         font-size: 1.1rem;
         margin-top: 0,5;
     }
-    }
+    
 
 
 
