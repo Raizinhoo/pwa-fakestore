@@ -1,9 +1,9 @@
-<script>
+<script setup>
 import { ref } from 'vue' ;
 
-import CartPlus from  'vue-material-design-icons/CartPlus.vue';
-import Account from 'vue-material-design-icons/Account.vue';
-import Menu from 'vue-material-design-icons/Menu.vue';
+import CartPlus from  'vue-material-design-icons/CartPlus.vue'
+import Account from 'vue-material-design-icons/Account.vue'
+import Menu from 'vue-material-design-icons/Menu.vue'
 
 const menuAberto = ref(false);
 </script>
@@ -24,9 +24,9 @@ const menuAberto = ref(false);
             </ul>
         </nav>
         <div class="header--icons">
-            <Account/>
-            <CartPlus/>
-            <Menu class="menu-hamburguer" @click="menuAberto = !menuAberto"/>
+          <Account/>
+          <CartPlus/>
+          <Menu class="menu-hamburger" @click="menuAberto = !menuAberto"/>
         </div>
     </header>
 </template>
